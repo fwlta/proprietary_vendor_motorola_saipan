@@ -1,0 +1,24 @@
+# Aliases extracted from modules themselves.
+alias of:N*T*Cchipone-tddi chipone_tddi_mmi
+alias of:N*T*Cchipone-tddiC* chipone_tddi_mmi
+alias i2c:aw881xx_smartpa aw881xx_dlkm
+alias of:N*T*Cabov,abov_sar_mmi_overlay_7ch abov_sar_mmi_overlay_7ch
+alias of:N*T*Cabov,abov_sar_mmi_overlay_7chC* abov_sar_mmi_overlay_7ch
+alias i2c:abov_sar abov_sar_mmi_overlay_7ch
+alias sdio:c*v037Ad018A* wmt_drv
+alias sdio:c*v037Ad018B* wmt_drv
+alias sdio:c*v037Ad018C* wmt_drv
+alias sdio:c*v037Ad6619* wmt_drv
+alias sdio:c*v037Ad020A* wmt_drv
+alias sdio:c*v037Ad020B* wmt_drv
+alias sdio:c*v037Ad020C* wmt_drv
+alias sdio:c*v037Ad5921* wmt_drv
+alias sdio:c*v037Ad6628* wmt_drv
+alias sdio:c*v037Ad6630* wmt_drv
+alias sdio:c*v037Ad6602* wmt_drv
+alias sdio:c*v037Ad6632* wmt_drv
+alias usbfunc:usbnet moto_f_usbnet
+alias spi:fpsensor-drivers fpsensor_spi
+alias of:N*T*Cmediatek,finger-chipone fpsensor_spi
+alias of:N*T*Cmediatek,finger-chiponeC* fpsensor_spi
+alias fs-exfat exfat

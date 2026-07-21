@@ -1,0 +1,76 @@
+on early-init
+   insmod /vendor/lib/modules/sensors_class.ko
+   insmod /vendor/lib/modules/chipone_tddi_mmi.ko
+   insmod /vendor/lib/modules/mmi_sys_temp.ko
+   insmod /vendor/lib/modules/goodix_mmi.ko
+   insmod /vendor/lib/modules/aw881xx_dlkm.ko
+   insmod /vendor/lib/modules/abov_sar_mmi_overlay_7ch.ko
+   insmod /vendor/lib/modules/exfat.ko
+
+on post-fs-data
+    # calibration
+    mkdir /data/vendor/sensor 0774 system system
+    # Sensor
+    chmod 0660 /dev/hf_manager
+    chown system system /dev/hf_manager
+
+    # config fingerprint
+    mkdir /data/vendor/.fps 0770 system vendor_fingerp
+    mkdir /mnt/vendor/persist/fps 0770 system system
+
+    # moto proximity sensor cal
+    chmod 0660 /sys/bus/platform/drivers/mtk_nanohub/proxcal
+    chown system system /sys/bus/platform/drivers/mtk_nanohub/proxcal
+
+on property:vendor.hw.fps.ident=chipone
+    # config chipone fpsensor
+    chown system system /dev/fpsensor
+    chmod 0660 /dev/fpsensor
+
+on property:vendor.hw.fps.ident=egis
+    # config egis fpsensor
+    chown system system /dev/esfp0
+    chmod 0660 /dev/esfp0
+
+on late-init
+    #moto algo params
+    chmod 0660 /sys/bus/platform/drivers/mtk_nanohub/algo_params
+    chown system system /sys/bus/platform/drivers/mtk_nanohub/algo_params
+
+    chown system system /sys/class/sensors/capsense_bottom_left/enable
+    chown system system /sys/class/sensors/capsense_bottom_left/poll_delay
+    chown system system /sys/class/sensors/capsense_bottom_right/enable
+    chown system system /sys/class/sensors/capsense_bottom_right/poll_delay
+    chown system system /sys/class/sensors/capsense_top_left/enable
+    chown system system /sys/class/sensors/capsense_top_left/poll_delay
+    chown system system /sys/class/sensors/capsense_top_mid/enable
+    chown system system /sys/class/sensors/capsense_top_mid/poll_delay
+    chown system system /sys/class/sensors/capsense_top_right/enable
+    chown system system /sys/class/sensors/capsense_top_right/poll_delay
+
+service capsense_reset /vendor/bin/capsense_reset
+    class core
+    user system
+    group system input
+    disabled
+
+on property:sys.boot_completed=1
+  start capsense_reset
+
+on boot
+   # change permission for capsensor
+   chown system system /sys/class/capsense/reset
+   chown radio system /sys/class/capsense/reg
+   chown radio system /sys/class/capsense/fw_download_status
+   chmod 0660 /sys/class/capsense/reset
+   chmod 0660 /sys/class/capsense/reg
+   chmod 0660 /sys/class/capsense/fw_download_status
+
+   # change permission for nfc
+   chown nfc nfc /dev/nq-nci
+   chmod 0666 /dev/nq-nci
+
+   # Change permission for dual camera calibration data
+   chmod 0664 /mnt/vendor/persist/camera/dualcal/dual_cal_data.bin
+   chmod 0664 /mnt/vendor/persist/camera/dualcal/module_id_main.bin
+   chmod 0664 /mnt/vendor/persist/camera/dualcal/module_id_aux.bin
