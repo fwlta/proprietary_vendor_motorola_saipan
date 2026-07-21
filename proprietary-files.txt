@@ -1,0 +1,268 @@
+# Automatically generated - do not edit
+# Use extract-files.py to populate
+
+# HAL - Audio
+vendor/lib/hw/audio.primary.mt6833.so
+vendor/lib/hw/audio.r_submix.mt6833.so
+vendor/lib64/hw/audio.primary.mt6833.so
+vendor/lib64/hw/audio.r_submix.mt6833.so
+vendor/lib/hw/audio.usb.default.so
+vendor/lib64/hw/audio.usb.default.so
+vendor/lib/hw/audio.bluetooth.default.so
+vendor/lib64/hw/audio.bluetooth.default.so
+vendor/lib/hw/audio_policy.stub.so
+vendor/lib64/hw/audio_policy.stub.so
+vendor/lib/hw/awinic.audio.effect.so
+vendor/lib64/hw/awinic.audio.effect.so
+
+# HAL - Bluetooth
+vendor/lib/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
+vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-mediatek.so
+vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so
+vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so
+vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so
+vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.1-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.bluetooth.audio@2.2-impl.so
+
+# HAL - Camera
+vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.camera.atms@1.0-impl.so
+vendor/lib/hw/motorola.hardware.camera.imgtuner@1.0-impl.so
+
+# HAL - Display
+vendor/lib/hw/gralloc.default.so
+vendor/lib64/hw/gralloc.default.so
+vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
+vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
+vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
+vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
+vendor/lib/hw/vulkan.mali.so
+vendor/lib64/hw/vulkan.mali.so
+vendor/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so
+vendor/lib64/hw/com.motorola.hardware.display.panel@1.0-impl.so
+vendor/lib/hw/displaypanel.default.so
+vendor/lib64/hw/displaypanel.default.so
+
+# HAL - Fingerprint
+vendor/lib/hw/fpsensor_fingerprint.default.so
+vendor/lib64/hw/fpsensor_fingerprint.default.so
+
+# HAL - Gatekeeper
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so
+vendor/lib/hw/gatekeeper.default.so
+vendor/lib64/hw/gatekeeper.default.so
+vendor/lib/hw/gatekeeper.trustonic.so
+vendor/lib64/hw/gatekeeper.trustonic.so
+vendor/lib/hw/libMcGatekeeper.so
+vendor/lib64/hw/libMcGatekeeper.so
+vendor/lib/hw/libSoftGatekeeper.so
+vendor/lib64/hw/libSoftGatekeeper.so
+vendor/lib/hw/kmsetkey.trustonic.so
+vendor/lib64/hw/kmsetkey.trustonic.so
+
+# HAL - GNSS
+vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
+vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
+vendor/lib/hw/gps.default.so
+vendor/lib64/hw/gps.default.so
+
+# HAL - Graphics
+vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
+vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
+
+# HAL - Health
+vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so
+vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so
+
+# HAL - Keymaster
+vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
+
+# HAL - Lights
+vendor/lib/hw/lights.mt6833.so
+vendor/lib64/hw/lights.mt6833.so
+
+# HAL - Memtrack
+vendor/lib/hw/android.hardware.memtrack@1.0-impl.so
+vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so
+vendor/lib/hw/memtrack.default.so
+vendor/lib64/hw/memtrack.default.so
+
+# HAL - Power
+vendor/lib/hw/power.default.so
+vendor/lib64/hw/power.default.so
+vendor/lib/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
+
+# HAL - Sensors
+vendor/lib/hw/motorola.hardware.sensorscalibrate@1.0-impl.so
+vendor/lib64/hw/motorola.hardware.sensorscalibrate@1.0-impl.so
+
+# HAL - Sound Trigger
+vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so
+vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so
+vendor/lib/hw/sound_trigger.primary.default.so
+vendor/lib64/hw/sound_trigger.primary.default.so
+
+# HAL - Thermal
+vendor/lib/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib/hw/android.hardware.thermal@2.0-impl.so
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so
+vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
+vendor/lib/hw/thermal_hal.so
+vendor/lib64/hw/thermal_hal.so
+
+# HAL - Vibrator
+vendor/lib/hw/vibrator.default.so
+vendor/lib64/hw/vibrator.default.so
+
+# HAL - Boot
+vendor/lib/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
+vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2-mtkimpl.so
+
+# HAL - Time
+vendor/lib/hw/local_time.default.so
+vendor/lib64/hw/local_time.default.so
+
+# HAL - NVRAM
+vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
+
+# HAL - MMS
+vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
+
+# HAL - PQ
+vendor/lib/hw/vendor.mediatek.hardware.pq@2.12-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.pq@2.12-impl.so
+
+# HAL - Video Telephony
+vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
+
+# MediaTek
+vendor/lib/libmtk_vpu.so
+vendor/lib64/libmtk_vpu.so
+vendor/lib/libmtk_drvb.so
+vendor/lib64/libmtk_drvb.so
+vendor/lib/libpq_prot.so
+vendor/lib64/libpq_prot.so
+vendor/lib/libpq_cust.so
+vendor/lib64/libpq_cust.so
+vendor/lib/libdpframework.so
+vendor/lib64/libdpframework.so
+vendor/lib/libaudiopreprocessing.so
+vendor/lib64/libaudiopreprocessing.so
+vendor/lib/libbessound_hd_mtk.so
+vendor/lib64/libbessound_hd_mtk.so
+vendor/lib/libbessurround_mtk.so
+vendor/lib64/libbessurround_mtk.so
+vendor/lib/libblisrc.so
+vendor/lib64/libblisrc.so
+vendor/lib/libmp3dec_mtk.so
+vendor/lib64/libmp3dec_mtk.so
+vendor/lib/libvcodec_ul_common.so
+vendor/lib64/libvcodec_ul_common.so
+vendor/lib/libvcodec_3gpp.so
+vendor/lib64/libvcodec_3gpp.so
+vendor/lib/libvcodec_cap.so
+vendor/lib64/libvcodec_cap.so
+vendor/lib/libvcodec_vdec.so
+vendor/lib64/libvcodec_vdec.so
+vendor/lib/libvcodec_venc.so
+vendor/lib64/libvcodec_venc.so
+vendor/lib/libstagefrighthw.so
+vendor/lib64/libstagefrighthw.so
+vendor/lib/libgralloc_extra.so
+vendor/lib64/libgralloc_extra.so
+vendor/lib/libgralloctypes_mtk.so
+vendor/lib64/libgralloctypes_mtk.so
+vendor/lib/libgui_ext.so
+vendor/lib64/libgui_ext.so
+vendor/lib/libui_ext.so
+vendor/lib64/libui_ext.so
+vendor/lib/libvcodecdrv.so
+vendor/lib64/libvcodecdrv.so
+vendor/lib/libdrmclearkeyplugin.so
+vendor/lib64/libdrmclearkeyplugin.so
+
+# Bluetooth
+vendor/lib/libbluetooth_qcomm.so
+vendor/lib64/libbluetooth_qcomm.so
+vendor/lib/libbt-vendor.so
+vendor/lib64/libbt-vendor.so
+
+# Camera
+vendor/lib/libcamera_custom_n3d.so
+vendor/lib64/libcamera_custom_n3d.so
+vendor/lib/libcamera_client.mtk.so
+vendor/lib64/libcamera_client.mtk.so
+vendor/lib/libcamera_metadata_helper.so
+vendor/lib64/libcamera_metadata_helper.so
+vendor/lib/libcameracustom.so
+vendor/lib64/libcameracustom.so
+vendor/lib/libcam.camadapter.so
+vendor/lib64/libcam.camadapter.so
+vendor/lib/libcam.camshot.so
+vendor/lib64/libcam.camshot.so
+vendor/lib/libcam.client.so
+vendor/lib64/libcam.client.so
+vendor/lib/libcam.device1.so
+vendor/lib64/libcam.device1.so
+vendor/lib/libcam.device3.so
+vendor/lib64/libcam.device3.so
+vendor/lib/libcam.hal3a.v3.so
+vendor/lib64/libcam.hal3a.v3.so
+vendor/lib/libcam.halsensor.so
+vendor/lib64/libcam.halsensor.so
+vendor/lib/libcam.iopipe.so
+vendor/lib64/libcam.iopipe.so
+vendor/lib/libcam.iopipe_FrmB.so
+vendor/lib64/libcam.iopipe_FrmB.so
+vendor/lib/libcam.metadata.so
+vendor/lib64/libcam.metadata.so
+vendor/lib/libcam.param.so
+vendor/lib64/libcam.param.so
+vendor/lib/libcam.sdk.so
+vendor/lib64/libcam.sdk.so
+vendor/lib/libcam.sdkfeature.so
+vendor/lib64/libcam.sdkfeature.so
+vendor/lib/libcam.utils.so
+vendor/lib64/libcam.utils.so
+vendor/lib/libcam_utils.so
+vendor/lib64/libcam_utils.so
+vendor/lib/libcam3_app.so
+vendor/lib64/libcam3_app.so
+vendor/lib/libcam3_camnode.so
+vendor/lib64/libcam3_camnode.so
+vendor/lib/libcam3_hwnode.so
+vendor/lib64/libcam3_hwnode.so
+vendor/lib/libcam3_pipeline.so
+vendor/lib64/libcam3_pipeline.so
+vendor/lib/libcam3_utils.so
+vendor/lib64/libcam3_utils.so
+vendor/lib/libmtkcam_fwkutils.so
+vendor/lib64/libmtkcam_fwkutils.so
+vendor/lib/libmtkcam.so
+vendor/lib64/libmtkcam.so
+
+# Sensors
+vendor/lib/libsensorndkbridge.so
+vendor/lib64/libsensorndkbridge.so
+vendor/lib/libsensor_custom.so
+vendor/lib64/libsensor_custom.so
+
+# DRM
+vendor/lib/liboemcrypto.so
+vendor/lib64/liboemcrypto.so
+vendor/lib/libwvhidl.so
+vendor/lib64/libwvhidl.so
+vendor/lib/libwvdrmengine.so
+vendor/lib64/libwvdrmengine.so
