@@ -1,4 +1,4 @@
-# Automatically generated - proprietary blobs
+# Automatically generated - proprietary blobs (excluding VINTF manifests)
 LOCAL_PATH := vendor/motorola/saipan
 
 PRODUCT_COPY_FILES += \
@@ -87,10 +87,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.boot@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot@1.2-service \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot@1.2.xml \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
@@ -208,8 +206,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml \
     $(LOCAL_PATH)/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
     $(LOCAL_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     $(LOCAL_PATH)/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
@@ -245,7 +241,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.health@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health@2.1.xml \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.trustonic \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc \
     $(LOCAL_PATH)/vendor/lib64/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4.so \
@@ -299,7 +294,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy.rc \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml \
     $(LOCAL_PATH)/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
     $(LOCAL_PATH)/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
     $(LOCAL_PATH)/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
@@ -369,7 +363,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
     $(LOCAL_PATH)/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     $(LOCAL_PATH)/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
@@ -378,9 +371,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     $(LOCAL_PATH)/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
     $(LOCAL_PATH)/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
     $(LOCAL_PATH)/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
     $(LOCAL_PATH)/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
@@ -1123,17 +1113,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/security/cacerts_supl/ed39abd0.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/ed39abd0.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts_supl/f336e3d1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/f336e3d1.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts_supl/facacbc6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/facacbc6.0 \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/fdrcontrol_1.2_manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/fdrcontrol_1.2_manifest.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/gnss-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-default.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/gnss@2.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss@2.1-service.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lbs_hidl_service@1.0.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/lights-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lights-mtk-default.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/manifest_IMoto_Fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_IMoto_Fingerprint.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/manifest_hwcomposer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_hwcomposer.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/motorola.hardware.input@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/motorola.hardware.input@1.0-service.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/power-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/power-default.xml \
-    $(LOCAL_PATH)/vendor/etc/vintf/manifest/vibrator-mtk-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vibrator-mtk-default.xml \
     $(LOCAL_PATH)/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     $(LOCAL_PATH)/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     $(LOCAL_PATH)/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
@@ -2161,8 +2140,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.trustonic.tee@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.1.so \
-    $(LOCAL_PATH)/vendor/odm/etc/vintf/manifest_dn.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_dn.xml \
-    $(LOCAL_PATH)/vendor/odm/etc/vintf/manifest_n.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_n.xml \
     $(LOCAL_PATH)/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     $(LOCAL_PATH)/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     $(LOCAL_PATH)/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
@@ -2213,6 +2190,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/lib64/libstagefright_wfd_mtk.so:lib64/libstagefright_wfd_mtk.so \
     $(LOCAL_PATH)/etc/libnfc-nci.conf:etc/libnfc-nci.conf \
     $(LOCAL_PATH)/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    $(LOCAL_PATH)/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    $(LOCAL_PATH)/odm/etc/vintf/manifest_dn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_dn.xml \
-    $(LOCAL_PATH)/odm/etc/vintf/manifest_n.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_n.xml
+    $(LOCAL_PATH)/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
