@@ -1,4 +1,4 @@
-# Automatically generated - proprietary blobs (excluding VINTF manifests)
+# Automatically generated - proprietary blobs
 LOCAL_PATH := vendor/motorola/saipan
 
 PRODUCT_COPY_FILES += \
@@ -380,13 +380,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     $(LOCAL_PATH)/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    $(LOCAL_PATH)/vendor/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/GoogleNetworkStackResOverlay/GoogleNetworkStackResOverlay.apk \
-    $(LOCAL_PATH)/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk \
-    $(LOCAL_PATH)/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk \
-    $(LOCAL_PATH)/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk \
-    $(LOCAL_PATH)/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackResOverlay/NetworkStackResOverlay.apk \
-    $(LOCAL_PATH)/vendor/app/ServiceConnectivityResOverlay/ServiceConnectivityResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/ServiceConnectivityResOverlay/ServiceConnectivityResOverlay.apk \
-    $(LOCAL_PATH)/vendor/app/TetheringResOverlay/TetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/TetheringResOverlay/TetheringResOverlay.apk \
     $(LOCAL_PATH)/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     $(LOCAL_PATH)/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     $(LOCAL_PATH)/vendor/app/mcRegistry/035c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/035c0000000000000000000000000000.drbin \
