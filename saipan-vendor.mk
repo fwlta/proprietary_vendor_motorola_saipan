@@ -1,66 +1,33 @@
-# Automatically generated - proprietary blobs
+# Auto-generated
 LOCAL_PATH := vendor/motorola/saipan
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@6.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     $(LOCAL_PATH)/vendor/lib/hw/audio.primary.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6833.so \
-    $(LOCAL_PATH)/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
     $(LOCAL_PATH)/vendor/lib/hw/audio.r_submix.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6833.so \
-    $(LOCAL_PATH)/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
     $(LOCAL_PATH)/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
-    $(LOCAL_PATH)/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
-    $(LOCAL_PATH)/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
-    $(LOCAL_PATH)/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
-    $(LOCAL_PATH)/vendor/lib/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_aidl_conversion.so \
-    $(LOCAL_PATH)/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
     $(LOCAL_PATH)/vendor/lib/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiotoolkit_vendor.so \
     $(LOCAL_PATH)/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     $(LOCAL_PATH)/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    $(LOCAL_PATH)/vendor/lib/libshmemcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemcompat.so \
-    $(LOCAL_PATH)/vendor/lib/libshmemutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemutil.so \
-    $(LOCAL_PATH)/vendor/lib/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/shared-file-region-aidl-cpp.so \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@6.1.so \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@7.1.so \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mtkpower@1.0.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.audio.effect@6.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@6.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@7.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     $(LOCAL_PATH)/vendor/lib64/hw/audio.primary.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6833.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
     $(LOCAL_PATH)/vendor/lib64/hw/audio.r_submix.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6833.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
     $(LOCAL_PATH)/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
-    $(LOCAL_PATH)/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
-    $(LOCAL_PATH)/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
-    $(LOCAL_PATH)/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
-    $(LOCAL_PATH)/vendor/lib64/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient_aidl_conversion.so \
-    $(LOCAL_PATH)/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
     $(LOCAL_PATH)/vendor/lib64/libaudiotoolkit_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiotoolkit_vendor.so \
     $(LOCAL_PATH)/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     $(LOCAL_PATH)/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
-    $(LOCAL_PATH)/vendor/lib64/libshmemcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshmemcompat.so \
-    $(LOCAL_PATH)/vendor/lib64/libshmemutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshmemutil.so \
-    $(LOCAL_PATH)/vendor/lib64/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/shared-file-region-aidl-cpp.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@7.1.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkpower@1.0.so \
     $(LOCAL_PATH)/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
-    $(LOCAL_PATH)/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
-    $(LOCAL_PATH)/vendor/lib/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgenerator.so \
     $(LOCAL_PATH)/vendor/lib/soundfx/libmmieffectswrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmmieffectswrapper.so \
-    $(LOCAL_PATH)/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
     $(LOCAL_PATH)/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
-    $(LOCAL_PATH)/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
-    $(LOCAL_PATH)/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgenerator.so \
-    $(LOCAL_PATH)/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibrator.so \
     $(LOCAL_PATH)/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     $(LOCAL_PATH)/vendor/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_in_audio_policy_configuration.xml \
     $(LOCAL_PATH)/vendor/etc/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
@@ -74,27 +41,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     $(LOCAL_PATH)/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so \
-    $(LOCAL_PATH)/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
-    $(LOCAL_PATH)/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
     $(LOCAL_PATH)/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
-    $(LOCAL_PATH)/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
     $(LOCAL_PATH)/vendor/lib64/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_mediatek.so \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.boot@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.boot@1.2-service \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     $(LOCAL_PATH)/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
     $(LOCAL_PATH)/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     $(LOCAL_PATH)/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
@@ -102,11 +51,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_gift.so \
     $(LOCAL_PATH)/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
     $(LOCAL_PATH)/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     $(LOCAL_PATH)/vendor/lib/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.default.so \
     $(LOCAL_PATH)/vendor/lib/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mali.so \
-    $(LOCAL_PATH)/vendor/lib/hw/vulkan.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6833.so \
     $(LOCAL_PATH)/vendor/lib/mt6833/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libaiselector.so \
     $(LOCAL_PATH)/vendor/lib/mt6833/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libdpframework.so \
     $(LOCAL_PATH)/vendor/lib/mt6833/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6833/libpq_prot.so \
@@ -153,12 +99,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
     $(LOCAL_PATH)/vendor/lib64/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_qt.so \
     $(LOCAL_PATH)/vendor/lib64/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_trace.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     $(LOCAL_PATH)/vendor/lib64/hw/hwcomposer.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.mt6833.so \
     $(LOCAL_PATH)/vendor/lib64/hw/memtrack.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.default.so \
     $(LOCAL_PATH)/vendor/lib64/hw/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mali.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/vulkan.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.mt6833.so \
     $(LOCAL_PATH)/vendor/lib64/mt6833/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6833/libaiselector.so \
     $(LOCAL_PATH)/vendor/lib64/mt6833/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6833/libdpframework.so \
     $(LOCAL_PATH)/vendor/lib64/mt6833/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6833/libpq_prot.so \
@@ -175,7 +118,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_extra.so \
     $(LOCAL_PATH)/vendor/lib64/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc_metadata.so \
     $(LOCAL_PATH)/vendor/lib64/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloctypes_mtk.so \
-    $(LOCAL_PATH)/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     $(LOCAL_PATH)/vendor/lib64/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_mtk.so \
     $(LOCAL_PATH)/vendor/lib64/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_ulit.so \
     $(LOCAL_PATH)/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
@@ -202,84 +144,45 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.7.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.8.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.9.so \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.drm@1.4-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.clearkey \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    $(LOCAL_PATH)/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
-    $(LOCAL_PATH)/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    $(LOCAL_PATH)/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     $(LOCAL_PATH)/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     $(LOCAL_PATH)/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     $(LOCAL_PATH)/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    $(LOCAL_PATH)/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
-    $(LOCAL_PATH)/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
-    $(LOCAL_PATH)/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libmockdrmcryptoplugin.so \
     $(LOCAL_PATH)/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     $(LOCAL_PATH)/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     $(LOCAL_PATH)/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-chipone:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-chipone \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-chipone2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-chipone2.rc \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ets2.rc \
-    $(LOCAL_PATH)/vendor/lib/com.motorola.hardware.biometric.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.motorola.hardware.biometric.fingerprint@1.0.so \
     $(LOCAL_PATH)/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
     $(LOCAL_PATH)/vendor/lib/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRbsFlow.so \
-    $(LOCAL_PATH)/vendor/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.motorola.hardware.biometric.fingerprint@1.0.so \
     $(LOCAL_PATH)/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     $(LOCAL_PATH)/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.gatekeeper@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl.so \
     $(LOCAL_PATH)/vendor/lib/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.default.so \
     $(LOCAL_PATH)/vendor/lib/hw/gatekeeper.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.trustonic.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
     $(LOCAL_PATH)/vendor/lib64/hw/gatekeeper.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.default.so \
     $(LOCAL_PATH)/vendor/lib64/hw/gatekeeper.trustonic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.trustonic.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.health@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.keymaster@4.0-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service.trustonic \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service.trustonic.rc \
-    $(LOCAL_PATH)/vendor/lib64/libkeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster4.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.lights-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.mediatek \
     $(LOCAL_PATH)/vendor/lib/hw/lights.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6833.so \
     $(LOCAL_PATH)/vendor/lib64/hw/lights.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6833.so \
-    $(LOCAL_PATH)/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
-    $(LOCAL_PATH)/vendor/lib/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.1.so \
-    $(LOCAL_PATH)/vendor/lib/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.2.so \
-    $(LOCAL_PATH)/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
     $(LOCAL_PATH)/vendor/lib/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_c2store.so \
     $(LOCAL_PATH)/vendor/lib/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_vdec.so \
     $(LOCAL_PATH)/vendor/lib/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_mtk_venc.so \
-    $(LOCAL_PATH)/vendor/lib/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_common.so \
     $(LOCAL_PATH)/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     $(LOCAL_PATH)/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
     $(LOCAL_PATH)/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
-    $(LOCAL_PATH)/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
-    $(LOCAL_PATH)/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
-    $(LOCAL_PATH)/vendor/lib64/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.1.so \
-    $(LOCAL_PATH)/vendor/lib64/libcodec2_hidl@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl@1.2.so \
-    $(LOCAL_PATH)/vendor/lib64/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_hidl_plugin.so \
     $(LOCAL_PATH)/vendor/lib64/libcodec2_mtk_c2store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_c2store.so \
     $(LOCAL_PATH)/vendor/lib64/libcodec2_mtk_vdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_vdec.so \
     $(LOCAL_PATH)/vendor/lib64/libcodec2_mtk_venc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_mtk_venc.so \
-    $(LOCAL_PATH)/vendor/lib64/libcodec2_soft_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_common.so \
     $(LOCAL_PATH)/vendor/lib64/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_qt_plugin.so \
     $(LOCAL_PATH)/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
     $(LOCAL_PATH)/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
-    $(LOCAL_PATH)/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
-    $(LOCAL_PATH)/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     $(LOCAL_PATH)/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    $(LOCAL_PATH)/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
+    $(LOCAL_PATH)/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(LOCAL_PATH)/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     $(LOCAL_PATH)/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     $(LOCAL_PATH)/vendor/etc/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
@@ -293,32 +196,18 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron-lazy.rc \
     $(LOCAL_PATH)/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
     $(LOCAL_PATH)/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
     $(LOCAL_PATH)/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
-    $(LOCAL_PATH)/vendor/lib/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/ese_client.so \
-    $(LOCAL_PATH)/vendor/lib/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/ese_spi_nxp.so \
     $(LOCAL_PATH)/vendor/lib/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hal_libnfc.so \
-    $(LOCAL_PATH)/vendor/lib/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci_nxp.so \
     $(LOCAL_PATH)/vendor/lib/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.eventprocessor@1.0.so \
-    $(LOCAL_PATH)/vendor/lib/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpese@1.0.so \
-    $(LOCAL_PATH)/vendor/lib/vendor.nxp.nxpnfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpnfc@2.0.so \
     $(LOCAL_PATH)/vendor/lib/vendor.nxp.nxpnfclegacy@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpnfclegacy@1.0.so \
-    $(LOCAL_PATH)/vendor/lib64/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_client.so \
-    $(LOCAL_PATH)/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
     $(LOCAL_PATH)/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
-    $(LOCAL_PATH)/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.eventprocessor@1.0.so \
-    $(LOCAL_PATH)/vendor/lib64/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpese@1.0.so \
-    $(LOCAL_PATH)/vendor/lib64/vendor.nxp.nxpnfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@2.0.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfclegacy@1.0.so \
     $(LOCAL_PATH)/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    $(LOCAL_PATH)/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
-    $(LOCAL_PATH)/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     $(LOCAL_PATH)/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     $(LOCAL_PATH)/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     $(LOCAL_PATH)/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
@@ -338,12 +227,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so \
     $(LOCAL_PATH)/vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.renderscript@1.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
     $(LOCAL_PATH)/vendor/lib/sensors.moto.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.moto.so \
     $(LOCAL_PATH)/vendor/lib64/hw/sensors.mt6833.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6833.so \
     $(LOCAL_PATH)/vendor/lib64/libhfmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhfmanager.so \
@@ -351,30 +236,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     $(LOCAL_PATH)/vendor/lib64/sensors.moto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.moto.so \
     $(LOCAL_PATH)/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.3-impl.so \
     $(LOCAL_PATH)/vendor/lib/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.default.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.soundtrigger@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.3-impl.so \
     $(LOCAL_PATH)/vendor/lib64/hw/sound_trigger.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.default.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.thermal@2.0-service.mtk:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@2.0-service.mtk \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
-    $(LOCAL_PATH)/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
     $(LOCAL_PATH)/vendor/lib/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@2.0-impl.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
     $(LOCAL_PATH)/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.usb@1.2-service-mediatekv2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-mediatekv2 \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
     $(LOCAL_PATH)/vendor/bin/hw/android.hardware.vibrator-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator-service.mediatek \
-    $(LOCAL_PATH)/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
-    $(LOCAL_PATH)/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy \
     $(LOCAL_PATH)/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     $(LOCAL_PATH)/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/android.hardware.wifi@1.0-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy.rc \
-    $(LOCAL_PATH)/vendor/lib/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkeystore-wifi-hidl.so \
-    $(LOCAL_PATH)/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    $(LOCAL_PATH)/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
-    $(LOCAL_PATH)/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     $(LOCAL_PATH)/vendor/lib64/motorola.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.wifi.hostapd@1.0.so \
     $(LOCAL_PATH)/vendor/lib64/motorola.hardware.wifi.supplicant@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.wifi.supplicant@1.0_vendor.so \
     $(LOCAL_PATH)/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
@@ -430,49 +300,33 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     $(LOCAL_PATH)/vendor/bin/EEReport:$(TARGET_COPY_OUT_VENDOR)/bin/EEReport \
     $(LOCAL_PATH)/vendor/bin/TBaseDeviceBinding:$(TARGET_COPY_OUT_VENDOR)/bin/TBaseDeviceBinding \
-    $(LOCAL_PATH)/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
     $(LOCAL_PATH)/vendor/bin/aplogcat:$(TARGET_COPY_OUT_VENDOR)/bin/aplogcat \
     $(LOCAL_PATH)/vendor/bin/aplogd:$(TARGET_COPY_OUT_VENDOR)/bin/aplogd \
-    $(LOCAL_PATH)/vendor/bin/applypatch:$(TARGET_COPY_OUT_VENDOR)/bin/applypatch \
     $(LOCAL_PATH)/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     $(LOCAL_PATH)/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     $(LOCAL_PATH)/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     $(LOCAL_PATH)/vendor/bin/batch:$(TARGET_COPY_OUT_VENDOR)/bin/batch \
     $(LOCAL_PATH)/vendor/bin/bootloaderlog:$(TARGET_COPY_OUT_VENDOR)/bin/bootloaderlog \
-    $(LOCAL_PATH)/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    $(LOCAL_PATH)/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     $(LOCAL_PATH)/vendor/bin/capsense_reset:$(TARGET_COPY_OUT_VENDOR)/bin/capsense_reset \
     $(LOCAL_PATH)/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     $(LOCAL_PATH)/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
-    $(LOCAL_PATH)/vendor/bin/chattr:$(TARGET_COPY_OUT_VENDOR)/bin/chattr \
     $(LOCAL_PATH)/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
-    $(LOCAL_PATH)/vendor/bin/devmem:$(TARGET_COPY_OUT_VENDOR)/bin/devmem \
     $(LOCAL_PATH)/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
-    $(LOCAL_PATH)/vendor/bin/dmabuf_dump:$(TARGET_COPY_OUT_VENDOR)/bin/dmabuf_dump \
     $(LOCAL_PATH)/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
     $(LOCAL_PATH)/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     $(LOCAL_PATH)/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
     $(LOCAL_PATH)/vendor/bin/dreport:$(TARGET_COPY_OUT_VENDOR)/bin/dreport \
-    $(LOCAL_PATH)/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     $(LOCAL_PATH)/vendor/bin/expat:$(TARGET_COPY_OUT_VENDOR)/bin/expat \
     $(LOCAL_PATH)/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
     $(LOCAL_PATH)/vendor/bin/fdrcontrol:$(TARGET_COPY_OUT_VENDOR)/bin/fdrcontrol \
     $(LOCAL_PATH)/vendor/bin/fotacontrol:$(TARGET_COPY_OUT_VENDOR)/bin/fotacontrol \
-    $(LOCAL_PATH)/vendor/bin/fsync:$(TARGET_COPY_OUT_VENDOR)/bin/fsync \
     $(LOCAL_PATH)/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     $(LOCAL_PATH)/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     $(LOCAL_PATH)/vendor/bin/gbe:$(TARGET_COPY_OUT_VENDOR)/bin/gbe \
-    $(LOCAL_PATH)/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
     $(LOCAL_PATH)/vendor/bin/getconfig:$(TARGET_COPY_OUT_VENDOR)/bin/getconfig \
     $(LOCAL_PATH)/vendor/bin/getfattr:$(TARGET_COPY_OUT_VENDOR)/bin/getfattr \
     $(LOCAL_PATH)/vendor/bin/getgameserver:$(TARGET_COPY_OUT_VENDOR)/bin/getgameserver \
     $(LOCAL_PATH)/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
-    $(LOCAL_PATH)/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
-    $(LOCAL_PATH)/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
-    $(LOCAL_PATH)/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
-    $(LOCAL_PATH)/vendor/bin/i2cset:$(TARGET_COPY_OUT_VENDOR)/bin/i2cset \
-    $(LOCAL_PATH)/vendor/bin/iconv:$(TARGET_COPY_OUT_VENDOR)/bin/iconv \
-    $(LOCAL_PATH)/vendor/bin/install:$(TARGET_COPY_OUT_VENDOR)/bin/install \
     $(LOCAL_PATH)/vendor/bin/ipsec_mon:$(TARGET_COPY_OUT_VENDOR)/bin/ipsec_mon \
     $(LOCAL_PATH)/vendor/bin/jpegtool:$(TARGET_COPY_OUT_VENDOR)/bin/jpegtool \
     $(LOCAL_PATH)/vendor/bin/kpgather:$(TARGET_COPY_OUT_VENDOR)/bin/kpgather \
@@ -481,7 +335,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/bin/lib3a.ccu.ddr:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.ddr \
     $(LOCAL_PATH)/vendor/bin/lib3a.ccu.dm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.dm \
     $(LOCAL_PATH)/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
-    $(LOCAL_PATH)/vendor/bin/lsattr:$(TARGET_COPY_OUT_VENDOR)/bin/lsattr \
     $(LOCAL_PATH)/vendor/bin/masterclear:$(TARGET_COPY_OUT_VENDOR)/bin/masterclear \
     $(LOCAL_PATH)/vendor/bin/mbm_spy:$(TARGET_COPY_OUT_VENDOR)/bin/mbm_spy \
     $(LOCAL_PATH)/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
@@ -494,20 +347,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/bin/mtk_pkm_service:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_pkm_service \
     $(LOCAL_PATH)/vendor/bin/mtk_plpath_utils_ota:$(TARGET_COPY_OUT_VENDOR)/bin/mtk_plpath_utils_ota \
     $(LOCAL_PATH)/vendor/bin/muxreport:$(TARGET_COPY_OUT_VENDOR)/bin/muxreport \
-    $(LOCAL_PATH)/vendor/bin/nc:$(TARGET_COPY_OUT_VENDOR)/bin/nc \
-    $(LOCAL_PATH)/vendor/bin/netcat:$(TARGET_COPY_OUT_VENDOR)/bin/netcat \
     $(LOCAL_PATH)/vendor/bin/netdagent:$(TARGET_COPY_OUT_VENDOR)/bin/netdagent \
     $(LOCAL_PATH)/vendor/bin/netdc:$(TARGET_COPY_OUT_VENDOR)/bin/netdc \
-    $(LOCAL_PATH)/vendor/bin/nproc:$(TARGET_COPY_OUT_VENDOR)/bin/nproc \
-    $(LOCAL_PATH)/vendor/bin/nsenter:$(TARGET_COPY_OUT_VENDOR)/bin/nsenter \
     $(LOCAL_PATH)/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     $(LOCAL_PATH)/vendor/bin/poweroffcontrol:$(TARGET_COPY_OUT_VENDOR)/bin/poweroffcontrol \
     $(LOCAL_PATH)/vendor/bin/ptf:$(TARGET_COPY_OUT_VENDOR)/bin/ptf \
-    $(LOCAL_PATH)/vendor/bin/readelf:$(TARGET_COPY_OUT_VENDOR)/bin/readelf \
     $(LOCAL_PATH)/vendor/bin/recordevent:$(TARGET_COPY_OUT_VENDOR)/bin/recordevent \
     $(LOCAL_PATH)/vendor/bin/replayevent:$(TARGET_COPY_OUT_VENDOR)/bin/replayevent \
     $(LOCAL_PATH)/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
-    $(LOCAL_PATH)/vendor/bin/rtcwake:$(TARGET_COPY_OUT_VENDOR)/bin/rtcwake \
     $(LOCAL_PATH)/vendor/bin/sendevent2:$(TARGET_COPY_OUT_VENDOR)/bin/sendevent2 \
     $(LOCAL_PATH)/vendor/bin/setconfig:$(TARGET_COPY_OUT_VENDOR)/bin/setconfig \
     $(LOCAL_PATH)/vendor/bin/setfattr:$(TARGET_COPY_OUT_VENDOR)/bin/setfattr \
@@ -515,18 +362,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/bin/stp_dump3:$(TARGET_COPY_OUT_VENDOR)/bin/stp_dump3 \
     $(LOCAL_PATH)/vendor/bin/tcmd:$(TARGET_COPY_OUT_VENDOR)/bin/tcmd \
     $(LOCAL_PATH)/vendor/bin/tcmdhelp:$(TARGET_COPY_OUT_VENDOR)/bin/tcmdhelp \
-    $(LOCAL_PATH)/vendor/bin/test:$(TARGET_COPY_OUT_VENDOR)/bin/test \
     $(LOCAL_PATH)/vendor/bin/testgameserver:$(TARGET_COPY_OUT_VENDOR)/bin/testgameserver \
     $(LOCAL_PATH)/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
     $(LOCAL_PATH)/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     $(LOCAL_PATH)/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
     $(LOCAL_PATH)/vendor/bin/ufsgetsn:$(TARGET_COPY_OUT_VENDOR)/bin/ufsgetsn \
-    $(LOCAL_PATH)/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
-    $(LOCAL_PATH)/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
-    $(LOCAL_PATH)/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
     $(LOCAL_PATH)/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     $(LOCAL_PATH)/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
-    $(LOCAL_PATH)/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
     $(LOCAL_PATH)/vendor/bin/wlan_assistant:$(TARGET_COPY_OUT_VENDOR)/bin/wlan_assistant \
     $(LOCAL_PATH)/vendor/bin/wmt_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_launcher \
     $(LOCAL_PATH)/vendor/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
@@ -679,70 +521,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Virgin_Mobile.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Virgin_Mobile.xml \
     $(LOCAL_PATH)/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_nTelos.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_nTelos.xml \
     $(LOCAL_PATH)/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
-    $(LOCAL_PATH)/vendor/etc/init/EEReport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/EEReport.rc \
-    $(LOCAL_PATH)/vendor/etc/init/apanic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/apanic.rc \
-    $(LOCAL_PATH)/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
-    $(LOCAL_PATH)/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
-    $(LOCAL_PATH)/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
-    $(LOCAL_PATH)/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
-    $(LOCAL_PATH)/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
-    $(LOCAL_PATH)/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
-    $(LOCAL_PATH)/vendor/etc/init/com.motorola.hardware.display.panel@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.motorola.hardware.display.panel@1.0-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
-    $(LOCAL_PATH)/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
-    $(LOCAL_PATH)/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
-    $(LOCAL_PATH)/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
-    $(LOCAL_PATH)/vendor/etc/init/getgameserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/getgameserver.rc \
-    $(LOCAL_PATH)/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
-    $(LOCAL_PATH)/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.bt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bt_drv.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
-    $(LOCAL_PATH)/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
-    $(LOCAL_PATH)/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
-    $(LOCAL_PATH)/vendor/etc/init/lbs_hidl_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lbs_hidl_service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/lights-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/lights-mtk-default.rc \
-    $(LOCAL_PATH)/vendor/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner@1.0-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/motorola.hardware.fdrcontrol@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.fdrcontrol@1.2-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/motorola.hardware.health@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.health@2.0-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/motorola.hardware.input@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.input@1.0-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/motorola.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.sensorscalibrate@1.0-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/mtk_agpsd_p.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_agpsd_p.rc \
-    $(LOCAL_PATH)/vendor/etc/init/mtk_pkm_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtk_pkm_service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/mtklog.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtklog.rc \
-    $(LOCAL_PATH)/vendor/etc/init/mtkrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/mtkrild.rc \
-    $(LOCAL_PATH)/vendor/etc/init/muxreport.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/muxreport.rc \
-    $(LOCAL_PATH)/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
-    $(LOCAL_PATH)/vendor/etc/init/networksetting.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/networksetting.rc \
-    $(LOCAL_PATH)/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
-    $(LOCAL_PATH)/vendor/etc/init/tee.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tee.rc \
-    $(LOCAL_PATH)/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
-    $(LOCAL_PATH)/vendor/etc/init/trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustonic.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-init.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mtkpower@1.0-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.mmi.carrier.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mmi.carrier.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
-    $(LOCAL_PATH)/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    $(LOCAL_PATH)/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
-    $(LOCAL_PATH)/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     $(LOCAL_PATH)/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt \
     $(LOCAL_PATH)/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
     $(LOCAL_PATH)/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
@@ -991,7 +769,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
-    $(LOCAL_PATH)/vendor/etc/security/cacerts/7c302982.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7c302982.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
@@ -1032,7 +809,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
-    $(LOCAL_PATH)/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
@@ -1042,7 +818,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
-    $(LOCAL_PATH)/vendor/etc/security/cacerts/d0cddf45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d0cddf45.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
     $(LOCAL_PATH)/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
@@ -1134,12 +909,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
     $(LOCAL_PATH)/vendor/etc/fstab.emmc:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.emmc \
     $(LOCAL_PATH)/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
-    $(LOCAL_PATH)/vendor/etc/fstab.enablezram:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enablezram \
     $(LOCAL_PATH)/vendor/etc/fstab.enablezramwb:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enablezramwb \
     $(LOCAL_PATH)/vendor/etc/fstab.mt6833:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6833 \
     $(LOCAL_PATH)/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     $(LOCAL_PATH)/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
-    $(LOCAL_PATH)/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     $(LOCAL_PATH)/vendor/etc/mot_spn_table:$(TARGET_COPY_OUT_VENDOR)/etc/mot_spn_table \
     $(LOCAL_PATH)/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     $(LOCAL_PATH)/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
@@ -1241,7 +1014,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/firmware/soc2_2_ram_wifi_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1a_1_hdr.bin \
     $(LOCAL_PATH)/vendor/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
     $(LOCAL_PATH)/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
-    $(LOCAL_PATH)/vendor/lib/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio_policy.stub.so \
     $(LOCAL_PATH)/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
     $(LOCAL_PATH)/vendor/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.motorola.hardware.display.panel@1.0-impl.so \
     $(LOCAL_PATH)/vendor/lib/hw/displaypanel.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/displaypanel.default.so \
@@ -1449,8 +1221,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_mp3dec.so \
     $(LOCAL_PATH)/vendor/lib/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_soft_mtk_msadpcmdec.so \
     $(LOCAL_PATH)/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
-    $(LOCAL_PATH)/vendor/lib/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppbor_external.so \
-    $(LOCAL_PATH)/vendor/lib/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppcose_rkp.so \
     $(LOCAL_PATH)/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     $(LOCAL_PATH)/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     $(LOCAL_PATH)/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
@@ -1458,7 +1228,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
     $(LOCAL_PATH)/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     $(LOCAL_PATH)/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
-    $(LOCAL_PATH)/vendor/lib/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflatbuffers-cpp.so \
     $(LOCAL_PATH)/vendor/lib/libfp_ext_svc2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfp_ext_svc2.so \
     $(LOCAL_PATH)/vendor/lib/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgamehdr.so \
     $(LOCAL_PATH)/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
@@ -1521,9 +1290,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqpconfig.so \
     $(LOCAL_PATH)/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     $(LOCAL_PATH)/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
-    $(LOCAL_PATH)/vendor/lib/libruy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libruy.so \
     $(LOCAL_PATH)/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
-    $(LOCAL_PATH)/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     $(LOCAL_PATH)/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     $(LOCAL_PATH)/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     $(LOCAL_PATH)/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
@@ -1548,7 +1315,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
     $(LOCAL_PATH)/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     $(LOCAL_PATH)/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
-    $(LOCAL_PATH)/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     $(LOCAL_PATH)/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     $(LOCAL_PATH)/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     $(LOCAL_PATH)/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
@@ -1577,7 +1343,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
     $(LOCAL_PATH)/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
-    $(LOCAL_PATH)/vendor/lib64/hw/audio_policy.stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio_policy.stub.so \
     $(LOCAL_PATH)/vendor/lib64/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/awinic.audio.effect.so \
     $(LOCAL_PATH)/vendor/lib64/hw/com.motorola.hardware.display.panel@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.motorola.hardware.display.panel@1.0-impl.so \
     $(LOCAL_PATH)/vendor/lib64/hw/displaypanel.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/displaypanel.default.so \
@@ -1805,7 +1570,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libaudioprimarydevicehalifclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioprimarydevicehalifclient.so \
     $(LOCAL_PATH)/vendor/lib64/libaurisysdemo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaurisysdemo.so \
     $(LOCAL_PATH)/vendor/lib64/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbessound_hd_mtk_vendor.so \
-    $(LOCAL_PATH)/vendor/lib64/libbinderdebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderdebug.so \
     $(LOCAL_PATH)/vendor/lib64/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblisrc32_vendor.so \
     $(LOCAL_PATH)/vendor/lib64/libbluetooth_hw_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_hw_test.so \
     $(LOCAL_PATH)/vendor/lib64/libbluetooth_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk.so \
@@ -1890,8 +1654,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libcodec2_soft_mtk_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_mp3dec.so \
     $(LOCAL_PATH)/vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_soft_mtk_msadpcmdec.so \
     $(LOCAL_PATH)/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
-    $(LOCAL_PATH)/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
-    $(LOCAL_PATH)/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
     $(LOCAL_PATH)/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     $(LOCAL_PATH)/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     $(LOCAL_PATH)/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
@@ -1912,7 +1674,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv_mem.so \
     $(LOCAL_PATH)/vendor/lib64/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfft_vendor.so \
     $(LOCAL_PATH)/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
-    $(LOCAL_PATH)/vendor/lib64/libflatbuffers-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflatbuffers-cpp.so \
     $(LOCAL_PATH)/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     $(LOCAL_PATH)/vendor/lib64/libfp_ext_svc2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfp_ext_svc2.so \
     $(LOCAL_PATH)/vendor/lib64/libgamehdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgamehdr.so \
@@ -2049,12 +1810,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
     $(LOCAL_PATH)/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     $(LOCAL_PATH)/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
-    $(LOCAL_PATH)/vendor/lib64/libruy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libruy.so \
     $(LOCAL_PATH)/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
-    $(LOCAL_PATH)/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     $(LOCAL_PATH)/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     $(LOCAL_PATH)/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
-    $(LOCAL_PATH)/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     $(LOCAL_PATH)/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     $(LOCAL_PATH)/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
     $(LOCAL_PATH)/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
@@ -2078,7 +1836,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     $(LOCAL_PATH)/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     $(LOCAL_PATH)/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
-    $(LOCAL_PATH)/vendor/lib64/libz_stable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz_stable.so \
     $(LOCAL_PATH)/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     $(LOCAL_PATH)/vendor/lib64/motorola.hardware.camera.imgtuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.camera.imgtuner@1.0.so \
     $(LOCAL_PATH)/vendor/lib64/motorola.hardware.fdrcontrol@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.fdrcontrol@1.0.so \
@@ -2145,42 +1902,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/vendor/usr/keylayout/egis_fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/egis_fp.kl \
     $(LOCAL_PATH)/vendor/usr/keylayout/uinput-fpsensor.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpsensor.kl \
     $(LOCAL_PATH)/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
-    $(LOCAL_PATH)/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop \
-    $(LOCAL_PATH)/etc/audio_effects.conf:etc/audio_effects.conf \
-    $(LOCAL_PATH)/system_ext/etc/a2dp_audio_policy_configuration.xml:system_ext/etc/a2dp_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/system_ext/etc/a2dp_in_audio_policy_configuration.xml:system_ext/etc/a2dp_in_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_configuration.xml:system_ext/etc/audio_policy_configuration.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:system_ext/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_configuration_stub.xml:system_ext/etc/audio_policy_configuration_stub.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_engine_configuration.xml:system_ext/etc/audio_policy_engine_configuration.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_engine_default_stream_volumes.xml:system_ext/etc/audio_policy_engine_default_stream_volumes.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_engine_product_strategies.xml:system_ext/etc/audio_policy_engine_product_strategies.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_engine_stream_volumes.xml:system_ext/etc/audio_policy_engine_stream_volumes.xml \
-    $(LOCAL_PATH)/system_ext/etc/audio_policy_volumes.xml:system_ext/etc/audio_policy_volumes.xml \
-    $(LOCAL_PATH)/system_ext/etc/bluetooth_audio_policy_configuration.xml:system_ext/etc/bluetooth_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/system_ext/etc/default_volume_tables.xml:system_ext/etc/default_volume_tables.xml \
-    $(LOCAL_PATH)/system_ext/etc/hearing_aid_audio_policy_configuration.xml:system_ext/etc/hearing_aid_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/system_ext/etc/r_submix_audio_policy_configuration.xml:system_ext/etc/r_submix_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/system_ext/etc/usb_audio_policy_configuration.xml:system_ext/etc/usb_audio_policy_configuration.xml \
-    $(LOCAL_PATH)/etc/seccomp_policy/mediacodec.policy:etc/seccomp_policy/mediacodec.policy \
-    $(LOCAL_PATH)/lib/libdatasource.so:lib/libdatasource.so \
-    $(LOCAL_PATH)/lib/libdmabufheap.so:lib/libdmabufheap.so \
-    $(LOCAL_PATH)/lib/libged_sys.so:lib/libged_sys.so \
-    $(LOCAL_PATH)/lib/libgralloc_extra_sys.so:lib/libgralloc_extra_sys.so \
-    $(LOCAL_PATH)/lib/libmedia_codeclist.so:lib/libmedia_codeclist.so \
-    $(LOCAL_PATH)/lib/libstagefright_bufferpool@2.0.1.so:lib/libstagefright_bufferpool@2.0.1.so \
-    $(LOCAL_PATH)/lib/libstagefright_codecbase.so:lib/libstagefright_codecbase.so \
-    $(LOCAL_PATH)/lib/libstagefright_framecapture_utils.so:lib/libstagefright_framecapture_utils.so \
-    $(LOCAL_PATH)/lib/libstagefright_wfd_mtk.so:lib/libstagefright_wfd_mtk.so \
-    $(LOCAL_PATH)/lib64/libdatasource.so:lib64/libdatasource.so \
-    $(LOCAL_PATH)/lib64/libdmabufheap.so:lib64/libdmabufheap.so \
-    $(LOCAL_PATH)/lib64/libged_sys.so:lib64/libged_sys.so \
-    $(LOCAL_PATH)/lib64/libgralloc_extra_sys.so:lib64/libgralloc_extra_sys.so \
-    $(LOCAL_PATH)/lib64/libmedia_codeclist.so:lib64/libmedia_codeclist.so \
-    $(LOCAL_PATH)/lib64/libstagefright_bufferpool@2.0.1.so:lib64/libstagefright_bufferpool@2.0.1.so \
-    $(LOCAL_PATH)/lib64/libstagefright_codecbase.so:lib64/libstagefright_codecbase.so \
-    $(LOCAL_PATH)/lib64/libstagefright_framecapture_utils.so:lib64/libstagefright_framecapture_utils.so \
-    $(LOCAL_PATH)/lib64/libstagefright_wfd_mtk.so:lib64/libstagefright_wfd_mtk.so \
-    $(LOCAL_PATH)/etc/libnfc-nci.conf:etc/libnfc-nci.conf \
-    $(LOCAL_PATH)/system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so:system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so \
-    $(LOCAL_PATH)/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
+    $(LOCAL_PATH)/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop
